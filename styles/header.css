@@ -1,0 +1,64 @@
+header {
+  background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+}
+
+header > div {
+  padding: 4.1rem 0 4.1rem 0;
+}
+
+header > div div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7.3rem;
+}
+
+header > div div h1 {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+header > div div h2 {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+header > div form {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 2.028rem;
+  display: flex;
+  align-items: center;
+}
+
+header > div form svg {
+  color: var(--white);
+  margin-right: 2.028rem;
+}
+
+header > div form input {
+  width: 100%;
+  line-height: 2.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  background: transparent;
+  color: var(--white);
+}
+
+header > div form input:focus {
+  outline: none;
+}
+
+header > div form input::placeholder {
+  width: 100%;
+  line-height: 2.2rem;
+  font-size: 1.8rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: var(--white);
+  opacity: 0.5;
+}
